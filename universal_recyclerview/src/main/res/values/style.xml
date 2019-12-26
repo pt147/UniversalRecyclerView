@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UniversalRecyclerView">
+        <attr name="showProgress" format="boolean"/>
+        <attr name="showNoData" format="boolean"/>
+        <attr name="pagination" format="boolean"/>
+        <attr name="noDataTextSize" format="dimension"/>
+        <attr name="noDataTextColor" format="reference"/>
+        <attr name="enableSwipeToRefresh" format="boolean"/>
+        <attr name="noDataText" format="string"/>
+        <attr name="loadingStyle" format="enum">
+            <enum name="Shimmer" value="0"/>
+            <enum name="Progressbar" value="1"/>
+            <enum name="None" value="2"/>
+        </attr>
+
+    </declare-styleable>
+
+    <attr name="shimmerLayoutStyle" format="reference"/>
+
+    <declare-styleable name="ShimmerLayout">
+        <attr name="shimmer_color" format="color|reference"/>
+        <attr name="shimmer_duration" format="integer|reference"/>
+        <attr name="shimmer_angle" format="integer|reference"/>
+        <attr name="shimmer_width" format="dimension|reference"/>
+        <attr name="shimmer_center_width" format="dimension|reference"/>
+    </declare-styleable>
+</resources>

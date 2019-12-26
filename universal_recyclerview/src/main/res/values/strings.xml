@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="splash">Splash</string>
+    <string name="no_record_founds">No Record founds!</string>
+</resources>
