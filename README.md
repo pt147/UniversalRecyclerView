@@ -31,7 +31,7 @@ Notice that UltimateRecyclerView is a project under development.
  ### 2) Add the dependency
  ```
  dependencies {
-        implementation 'com.github.pt147:UniversalRecyclerView:1.0.4'
+        implementation 'com.github.pt147:UniversalRecyclerView:v1.0'
 	}
  ```
  
