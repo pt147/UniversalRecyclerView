@@ -15,7 +15,6 @@
             app:pagination="true"
             app:noDataTextColor="@color/colorAccent"
             app:showProgress="true"
-            app:noDataTextSize="25dp"
-            app:loadingStyle="Progressbar"/>
+            app:loadingStyle="Shimmer"/>
 
 </LinearLayout>
