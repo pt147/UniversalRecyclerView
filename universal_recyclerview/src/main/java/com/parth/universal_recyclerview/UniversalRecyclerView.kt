@@ -233,5 +233,10 @@ class UniversalRecyclerView : FrameLayout {
         }
     }
 
+    /*
+    * Return the instance of your recyclerView.
+    * */
+    fun getRecyclerView() = recyclerView
+
 
 }
