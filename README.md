@@ -46,17 +46,14 @@ Notice that UltimateRecyclerView is a project under development.
             app:loadingStyle="Progressbar"/>
  
  ```
- ### Prerequisite:
- Please add RecyclerView dependency and Pull to refresh dependency.
- 
- 
+
  ### Customizing the UI
  * `showProgress`     -- For displaying progress `default:true`
  * `loadingStyle`     -- For displaying various progress type ex. shimmer, progressBar, None. `default:Progressbar` 
  * `showNoData`       -- For displaying "No data layout" `default:false`
  * `noDataText`       -- For displaying "No data layout" text `default:No Record founds!`
  * `noDataTextColor`  -- For displaying "No data layout" text color `default:#000000`
- * `noDataTextSize`   -- For displaying "No data layout" text size. 'default:16sp'
+ * `noDataTextSize`   -- For displaying "No data layout" text size. `default:16sp`
  * `enableSwipeToRefresh` -- For include "Pull to refresh layout". `default:false` 
  * `pagination` -- For include pagination. `default:false`
  
