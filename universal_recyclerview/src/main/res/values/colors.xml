@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#d91248</color>
     <color name="colorAccent">#3ad23e</color>
     <color name="placeholder_bg">#dddddd</color>
+    <color name="shimmer_color">#c0c0c0c0</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
 </resources>
