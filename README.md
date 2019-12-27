@@ -46,6 +46,10 @@ Notice that UltimateRecyclerView is a project under development.
             app:loadingStyle="Progressbar"/>
  
  ```
+ ### Prerequisite:
+ Please add RecyclerView dependency and Pull to refresh dependency.
+ 
+ 
  ### Customizing the UI
  * `showProgress`     -- For displaying progress `default:true`
  * `loadingStyle`     -- For displaying various progress type ex. shimmer, progressBar, None. `default:Progressbar` 
