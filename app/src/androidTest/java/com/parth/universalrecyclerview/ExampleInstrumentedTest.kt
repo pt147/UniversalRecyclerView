@@ -1,4 +1,4 @@
-package com.example.universalrecyclerview
+package com.parth.universalrecyclerview
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4

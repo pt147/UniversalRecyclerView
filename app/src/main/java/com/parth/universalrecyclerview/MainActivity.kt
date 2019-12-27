@@ -1,10 +1,10 @@
-package com.example.universalrecyclerview
+package com.parth.universalrecyclerview
 
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.example.universal_recyclerview.Pagination
-import com.example.universal_recyclerview.PullToRefresh
+import com.parth.universal_recyclerview.Pagination
+import com.parth.universal_recyclerview.PullToRefresh
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -47,14 +47,7 @@ class MainActivity : AppCompatActivity() {
         recycler_view.setOnPullToRefresh(object : PullToRefresh {
             override fun onPageRefresh() {
 
-                Handler().postDelayed({
-                    list.clear()
-                    for (i in 0..20)
-                        list.add("Hi i am at --> ")
-
-                    //data has been loaded.
-                    recycler_view.loadComplete()
-                }, 5000)
+                recycler_view.loadComplete()
             }
         })
     }

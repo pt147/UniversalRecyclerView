@@ -5,12 +5,17 @@
               android:layout_width="match_parent" android:layout_height="match_parent"
               tools:context=".MainActivity">
 
-    <com.example.universal_recyclerview.UniversalRecyclerView
+    <com.parth.universal_recyclerview.UniversalRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:id="@+id/recycler_view"
             app:showNoData="true"
             app:noDataText="No Data Found."
-            app:loadingStyle="Progressbar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            app:enableSwipeToRefresh="true"
+            app:pagination="true"
+            app:noDataTextColor="@color/colorAccent"
+            app:showProgress="true"
+            app:noDataTextSize="25dp"
+            app:loadingStyle="Progressbar"/>
 
 </LinearLayout>

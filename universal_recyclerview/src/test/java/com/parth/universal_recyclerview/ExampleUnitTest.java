@@ -1,4 +1,4 @@
-package com.example.universal_recyclerview;
+package com.parth.universal_recyclerview;
 
 import org.junit.Test;
 

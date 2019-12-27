@@ -1,4 +1,4 @@
-package com.example.universalrecyclerview
+package com.parth.universalrecyclerview
 
 import android.content.Context
 import android.view.LayoutInflater
