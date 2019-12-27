@@ -37,7 +37,7 @@ Notice that UniversalRecyclerView is a project under development.
  
  ### 3) Now, This is how you can use it.
  ```xml
- <com.example.universal_recyclerview.UniversalRecyclerView
+	<com.parth.universal_recyclerview.UniversalRecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/recycler_view"
