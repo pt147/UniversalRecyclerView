@@ -8,7 +8,7 @@
 ## Description
 UniversalRecyclerView is a lightweight RecyclerView(advanced and flexible version of ListView) with pulling to refresh, pagination ,shimmer and progresbbar loading style and many other features.You can use it just like RecyclerView. Good thing is, it's in androidX.
 
-Notice that UltimateRecyclerView is a project under development.
+Notice that UniversalRecyclerView is a project under development.
 
 ## Features:
  * Swipe to refresh.
